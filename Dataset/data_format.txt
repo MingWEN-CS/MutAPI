@@ -1,0 +1,24 @@
+-- the format of instances.txt
+
+line#1: the content of the first API instance 
+API_INSTANCE \t sourceStart (the index of the starting token) \t sourceEnd (the index of the ending token) \t lineStart (the index of the starting line) \t lineEnd (the index of the ending line) \t enclosingStatement  "::::"  enclosingStatementContent  "::::"  enclosingStatementStart "::::"  enclosingStatementEnd  "::::"  enclosingStructure  "::::" enclosingStructureContent  "::::"  enclosingStructureStart  "::::"  enclosingStructureEnd 
+
+The enclosing part is not important, and can be replaced by ":::: ::::0::::0:::: :::: ::::0::::0"
+
+line#2: the enclosing method of the first API instance
+METHOD_NAME \t PARAMETER_LIST \t sourceStart (the index of the starting token) \t sourceEnd (the index of the ending token) \t lineStart (the index of the starting line) \t lineEnd (the index of the ending line)
+
+
+line#3: the content of the second API instance
+line#4: the enclosing method of the second API instance
+
+line#5: the content of the third API instance
+line#6: the enclosing method of the third API instance
+
+.....
+
+-- the format of usage_0.txt
+
+Line#N: the content of an API instance
+
+API_INSTANCE \t sourceStart (the index of the starting token) \t sourceEnd (the index of the ending token) \t lineStart (the index of the starting line) \t lineEnd (the index of the ending line) \t enclosingStatement  "::::"  enclosingStatementContent  "::::"  enclosingStatementStart "::::"  enclosingStatementEnd  "::::"  enclosingStructure  "::::" enclosingStructureContent  "::::"  enclosingStructureStart  "::::"  enclosingStructureEnd 
