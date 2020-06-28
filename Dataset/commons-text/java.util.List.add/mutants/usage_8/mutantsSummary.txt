@@ -1,0 +1,9 @@
+0	0	0	0
+1	0	1	1
+===	0	DELETE_USAGE	{     this.characterList = new java.util.ArrayList<>();     for (final char c : chars) {         this.characterList.add(c);     }     return this; }
+2	0	1	1
+===	0	DELETE_USAGE	for (final char c : chars) {     this.characterList.add(c); }
+3	0	1	1
+===	0	DELETE_USAGE	this.characterList.add(c)
+4	0	1	1
+===	0	DELETE_USAGE	{     this.characterList.add(c); }

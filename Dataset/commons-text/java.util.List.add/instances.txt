@@ -1,0 +1,24 @@
+commands.add(command)	2529	2550	72	72	 :::: ::::0::::0:::: :::: ::::0::::0
+append	[command]	2368	2578	66	74	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/diff/EditScript.java
+commands.add(command)	2750	2771	82	82	 :::: ::::0::::0:::: :::: ::::0::::0
+append	[command]	2584	2803	76	84	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/diff/EditScript.java
+commands.add(command)	2974	2995	92	92	 :::: ::::0::::0:::: :::: ::::0::::0
+append	[command]	2809	3027	86	94	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/diff/EditScript.java
+pendingInsertions.add(object)	3369	3398	90	90	 :::: ::::0::::0:::: :::: ::::0::::0
+visitInsertCommand	[object]	3184	3405	83	91	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/diff/ReplacementsFinder.java
+pendingDeletions.add(object)	4276	4304	121	121	 :::: ::::0::::0:::: :::: ::::0::::0
+visitDeleteCommand	[object]	4092	4311	114	122	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/diff/ReplacementsFinder.java
+tokens.add(matcher.group(0))	1796	1824	48	48	 :::: ::::0::::0:::: :::: ::::0::::0
+tokenize	[text]	1317	1887	36	51	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/similarity/RegexTokenizer.java
+this.translators.add(translator)	1706	1738	46	46	 :::: ::::0::::0:::: :::: ::::0::::0
+AggregateTranslator	[translators]	1310	1787	37	50	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/translate/AggregateTranslator.java
+characterList.add((char)index)	13887	13918	355	355	 :::: ::::0::::0:::: :::: ::::0::::0
+withinRange	[pairs]	12622	13987	326	360	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/RandomStringGenerator.java
+characterList.add(c)	17294	17314	451	451	 :::: ::::0::::0:::: :::: ::::0::::0
+selectFrom	[chars]	16452	17364	431	454	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/RandomStringGenerator.java
+priorVariables.add(new String(chars,offset,length))	41140	41237	952	953	 :::: ::::0::::0:::: :::: ::::0::::0
+substitute	[buf, offset, length, priorVariables]	35170	43433	844	1000	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/StrSubstitutor.java
+priorVariables.add(varName)	41450	41477	958	958	 :::: ::::0::::0:::: :::: ::::0::::0
+substitute	[buf, offset, length, priorVariables]	35170	43433	844	1000	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/StrSubstitutor.java
+list.add(tok)	22614	22627	676	676	 :::: ::::0::::0:::: :::: ::::0::::0
+addToken	[list, tok]	22151	22634	661	677	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/main/java/org/apache/commons/text/StrTokenizer.java

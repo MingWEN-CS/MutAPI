@@ -1,0 +1,367 @@
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	java.lang.ArrayIndexOutOfBoundsException: -1	41
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	3	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<[value ]${escaped}> but was:<[${not-escaped} $]${escaped}>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal} jumps over the lazy dog].> but was:<The $[${animal} jumps over the ${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	org.junit.ComparisonFailure: expected:<The ${[critter} jumps over the ${p]et}.> but was:<The ${[animal} jumps over the ${targ]et}.>	35
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[]{animal}> but was:<$[$]{animal}>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testSubstituteDefaultProperties	org.junit.ComparisonFailure: expected:<[It works!]> but was:<[${doesnotwork}]>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.AssertionError: Cyclic replacement was not detected!	33
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.AssertionError	37
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [@name@]!>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	org.junit.ComparisonFailure: expected:<...son} jumps over the [lazy dog].> but was:<...son} jumps over the [${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	org.junit.ComparisonFailure: expected:<Hi [mwenaa, you are working with Linux, your home directory is /homes/mwenaa].> but was:<Hi [${user.name}, you are working with ${os.name}, your home directory is ${user.home}].>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	org.junit.ComparisonFailure: expected:<Amount is [GBP12.50]> but was:<Amount is [${code}${amount}]>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceSolo	org.junit.ComparisonFailure: expected:<[quick brown fox]> but was:<[${animal}]>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the moon].> but was:<The [${animal} jumps over the ${target}].>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	org.junit.ComparisonFailure: expected:<... ${} jumps over the [lazy dog].> but was:<... ${} jumps over the [${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	org.junit.ComparisonFailure: expected:<The [fox jumps over the lazy dog. 1234567890].> but was:<The [${animal} jumps over the lazy ${target}. ${undefined.number:-1234567890}].>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox} jumps over the lazy dog].> but was:<The $[${${animal}} jumps over the ${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	org.junit.ComparisonFailure: expected:<... over the ${target} [lazy dog].> but was:<... over the ${target} [${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<Hi [jakarta]!> but was:<Hi [${name}]!>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	org.junit.ComparisonFailure: Wrong result (1) expected:<...es}} jumps over the [lazy dog].> but was:<...es}} jumps over the [${target}].>	33
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	org.junit.ComparisonFailure: expected:<[GBP12.50] charged> but was:<[${code}${amount}] charged>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	5	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testMapAndSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	5	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<[value ]${escaped}> but was:<[${not-escaped} $]${escaped}>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal} jumps over the lazy dog].> but was:<The $[${animal} jumps over the ${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	org.junit.ComparisonFailure: expected:<The ${[critter} jumps over the ${p]et}.> but was:<The ${[animal} jumps over the ${targ]et}.>	35
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[]{animal}> but was:<$[$]{animal}>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testSubstituteDefaultProperties	org.junit.ComparisonFailure: expected:<[It works!]> but was:<[${doesnotwork}]>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.AssertionError: Cyclic replacement was not detected!	33
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.AssertionError	37
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [@name@]!>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	org.junit.ComparisonFailure: expected:<...son} jumps over the [lazy dog].> but was:<...son} jumps over the [${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	org.junit.ComparisonFailure: expected:<Hi [mwenaa, you are working with Linux, your home directory is /homes/mwenaa].> but was:<Hi [${user.name}, you are working with ${os.name}, your home directory is ${user.home}].>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	org.junit.ComparisonFailure: expected:<Amount is [GBP12.50]> but was:<Amount is [${code}${amount}]>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceSolo	org.junit.ComparisonFailure: expected:<[quick brown fox]> but was:<[${animal}]>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the moon].> but was:<The [${animal} jumps over the ${target}].>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	org.junit.ComparisonFailure: expected:<... ${} jumps over the [lazy dog].> but was:<... ${} jumps over the [${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	org.junit.ComparisonFailure: expected:<The [fox jumps over the lazy dog. 1234567890].> but was:<The [${animal} jumps over the lazy ${target}. ${undefined.number:-1234567890}].>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox} jumps over the lazy dog].> but was:<The $[${${animal}} jumps over the ${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	org.junit.ComparisonFailure: expected:<... over the ${target} [lazy dog].> but was:<... over the ${target} [${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<Hi [jakarta]!> but was:<Hi [${name}]!>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	org.junit.ComparisonFailure: Wrong result (1) expected:<...es}} jumps over the [lazy dog].> but was:<...es}} jumps over the [${target}].>	33
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	org.junit.ComparisonFailure: expected:<[GBP12.50] charged> but was:<[${code}${amount}] charged>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	6	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testMapAndSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	6	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal}] jumps over the lazy...> but was:<The $[quick brown fox] jumps over the lazy...>	36
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[{animal}]> but was:<$[quick brown fox]>	36
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	org.junit.ComparisonFailure: expected:<The $[{animal]} jumps.> but was:<The $[${${thing}]} jumps.>	36
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	java.lang.AssertionError	37
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBufferWithNonNull	java.lang.AssertionError	36
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox]} jumps over the laz...> but was:<The $[${${animal}]} jumps over the laz...>	36
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull	java.lang.AssertionError	36
+Mutants:	8	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull_deprecated	java.lang.AssertionError	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal} jumps over the lazy dog].> but was:<The $[${animal} jumps over the ${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	org.junit.ComparisonFailure: expected:<The ${[critter} jumps over the ${p]et}.> but was:<The ${[animal} jumps over the ${targ]et}.>	35
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[]{animal}> but was:<$[$]{animal}>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.AssertionError: Cyclic replacement was not detected!	33
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.AssertionError	37
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	org.junit.ComparisonFailure: expected:<Hi []commons!> but was:<Hi [@]commons!>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	org.junit.ComparisonFailure: expected:<...son} jumps over the [lazy dog].> but was:<...son} jumps over the [${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	org.junit.ComparisonFailure: expected:<Hi [mwenaa, you are working with Linux, your home directory is /homes/mwenaa].> but was:<Hi [${user.name}, you are working with ${os.name}, your home directory is ${user.home}].>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	org.junit.ComparisonFailure: expected:<Amount is [GBP]12.50> but was:<Amount is [${code}]12.50>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the moon].> but was:<The [${animal} jumps over the ${target}].>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	org.junit.ComparisonFailure: expected:<... ${} jumps over the [lazy dog].> but was:<... ${} jumps over the [${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	org.junit.ComparisonFailure: expected:<The [fox jumps over the lazy dog. 1234567890].> but was:<The [${animal} jumps over the lazy ${target}. ${undefined.number:-1234567890}].>	34
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox} jumps over the lazy dog].> but was:<The $[${${animal}} jumps over the ${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	org.junit.ComparisonFailure: expected:<... over the ${target} [lazy dog].> but was:<... over the ${target} [${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<[]name> but was:<[Hi ${]name>	38
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	org.junit.ComparisonFailure: Wrong result (1) expected:<...es}} jumps over the [lazy dog].> but was:<...es}} jumps over the [${target}].>	33
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	10	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<[value] ${escaped}> but was:<[${not-escaped}] ${escaped}>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	org.junit.ComparisonFailure: expected:<The ${[critter} jumps over the ${p]et}.> but was:<The ${[animal} jumps over the ${targ]et}.>	35
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testSubstituteDefaultProperties	org.junit.ComparisonFailure: expected:<[It works!]> but was:<[${doesnotwork}]>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.AssertionError: Cyclic replacement was not detected!	33
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.AssertionError	37
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi < [commons]> but was:<Hi < [<name>]>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [@name@]!>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	org.junit.ComparisonFailure: expected:<...son} jumps over the [lazy dog].> but was:<...son} jumps over the [${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	org.junit.ComparisonFailure: expected:<Hi [mwenaa, you are working with Linux, your home directory is /homes/mwenaa].> but was:<Hi [${user.name}, you are working with ${os.name}, your home directory is ${user.home}].>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	org.junit.ComparisonFailure: expected:<Amount is [GBP12.50]> but was:<Amount is [${code}${amount}]>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceSolo	org.junit.ComparisonFailure: expected:<[quick brown fox]> but was:<[${animal}]>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the moon].> but was:<The [${animal} jumps over the ${target}].>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	org.junit.ComparisonFailure: expected:<${$[$]{}}> but was:<${$[]{}}>	35
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	org.junit.ComparisonFailure: expected:<... ${} jumps over the [lazy dog].> but was:<... ${} jumps over the [${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	org.junit.ComparisonFailure: expected:<The [fox jumps over the lazy dog. 1234567890].> but was:<The [${animal} jumps over the lazy ${target}. ${undefined.number:-1234567890}].>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The ${[quick brown fox} jumps over the lazy dog].> but was:<The ${[${animal}} jumps over the ${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	org.junit.ComparisonFailure: expected:<... over the ${target} [lazy dog].> but was:<... over the ${target} [${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<Hi [jakarta]!> but was:<Hi [${name}]!>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	org.junit.ComparisonFailure: Wrong result (1) expected:<...es}} jumps over the [lazy dog].> but was:<...es}} jumps over the [${target}].>	33
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	org.junit.ComparisonFailure: expected:<[GBP12.50] charged> but was:<[${code}${amount}] charged>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi < [commons]> but was:<Hi < [<name>]>	34
+Mutants:	15	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testMapAndSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	15	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<[value ]${escaped}> but was:<[${not-escaped} $]${escaped}>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	org.junit.ComparisonFailure: expected:<The ${[critter} jumps over the ${p]et}.> but was:<The ${[animal} jumps over the ${targ]et}.>	35
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testSubstituteDefaultProperties	org.junit.ComparisonFailure: expected:<[It works!]> but was:<[${doesnotwork}]>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.AssertionError: Cyclic replacement was not detected!	33
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.AssertionError	37
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi < [commons]> but was:<Hi < [<name>]>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [@name@]!>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	org.junit.ComparisonFailure: expected:<...son} jumps over the [lazy dog].> but was:<...son} jumps over the [${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	org.junit.ComparisonFailure: expected:<Hi [mwenaa, you are working with Linux, your home directory is /homes/mwenaa].> but was:<Hi [${user.name}, you are working with ${os.name}, your home directory is ${user.home}].>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	org.junit.ComparisonFailure: expected:<Amount is [GBP12.50]> but was:<Amount is [${code}${amount}]>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceSolo	org.junit.ComparisonFailure: expected:<[quick brown fox]> but was:<[${animal}]>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the moon].> but was:<The [${animal} jumps over the ${target}].>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	org.junit.ComparisonFailure: expected:<... ${} jumps over the [lazy dog].> but was:<... ${} jumps over the [${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	org.junit.ComparisonFailure: expected:<The [fox jumps over the lazy dog. 1234567890].> but was:<The [${animal} jumps over the lazy ${target}. ${undefined.number:-1234567890}].>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The ${[quick brown fox} jumps over the lazy dog].> but was:<The ${[${animal}} jumps over the ${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	org.junit.ComparisonFailure: expected:<... over the ${target} [lazy dog].> but was:<... over the ${target} [${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<[name]> but was:<[]>	38
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	org.junit.ComparisonFailure: Wrong result (1) expected:<...es}} jumps over the [lazy dog].> but was:<...es}} jumps over the [${target}].>	33
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	org.junit.ComparisonFailure: expected:<[GBP12.50] charged> but was:<[${code}${amount}] charged>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi < [commons]> but was:<Hi < [<name>]>	34
+Mutants:	18	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testMapAndSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	18	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testSystemProperty	org.junit.ComparisonFailure: expected:<[mwenaa]> but was:<[${sys:user.name}]>	32
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testSubstituteDefaultProperties	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.ArrayIndexOutOfBoundsException: -1	40
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	java.lang.ArrayIndexOutOfBoundsException: -1	41
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	java.lang.ArrayIndexOutOfBoundsException: -1	41
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testConstructorNoArgs	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceSolo	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testLANG1055	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorTest.testReplacePartialString_noReplace	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	21	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testMapAndSystemProperty	java.lang.ArrayIndexOutOfBoundsException: -1	35
+Mutants:	21	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testSystemProperty	java.lang.ArrayIndexOutOfBoundsException: -1	35
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal} jumps over the lazy dog].> but was:<The $[${animal} jumps over the ${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	org.junit.ComparisonFailure: expected:<The ${[critter} jumps over the ${p]et}.> but was:<The ${[animal} jumps over the ${targ]et}.>	35
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[]{animal}> but was:<$[$]{animal}>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.AssertionError: Cyclic replacement was not detected!	33
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	org.junit.ComparisonFailure: expected:<Hi []commons!> but was:<Hi [@]commons!>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	org.junit.ComparisonFailure: expected:<...son} jumps over the [lazy dog].> but was:<...son} jumps over the [${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	org.junit.ComparisonFailure: expected:<Hi [mwenaa, you are working with Linux, your home directory is /homes/mwenaa].> but was:<Hi [${user.name}, you are working with ${os.name}, your home directory is ${user.home}].>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	org.junit.ComparisonFailure: expected:<Amount is [GBP]12.50> but was:<Amount is [${code}]12.50>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the moon].> but was:<The [${animal} jumps over the ${target}].>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	java.lang.AssertionError	37
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBufferWithNonNull	java.lang.AssertionError	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	org.junit.ComparisonFailure: expected:<... ${} jumps over the [lazy dog].> but was:<... ${} jumps over the [${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	org.junit.ComparisonFailure: expected:<The [fox jumps over the lazy dog. 1234567890].> but was:<The [${animal} jumps over the lazy ${target}. ${undefined.number:-1234567890}].>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceNoVariables	java.lang.AssertionError	37
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox} jumps over the lazy dog].> but was:<The $[${${animal}} jumps over the ${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	org.junit.ComparisonFailure: expected:<... over the ${target} [lazy dog].> but was:<... over the ${target} [${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<[]name> but was:<[Hi ${]name>	38
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	org.junit.ComparisonFailure: Wrong result (1) expected:<...es}} jumps over the [lazy dog].> but was:<...es}} jumps over the [${target}].>	33
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull	java.lang.AssertionError	36
+Mutants:	25	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull_deprecated	java.lang.AssertionError	36
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[]{animal}> but was:<$[$]{animal}>	36
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	java.lang.AssertionError	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	java.lang.ArrayIndexOutOfBoundsException: -1	38
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<[]name> but was:<[Hi ${]name>	38
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	java.lang.ArrayIndexOutOfBoundsException: -1	39
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	29	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal}] jumps over the lazy...> but was:<The $[quick brown fox] jumps over the lazy...>	36
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[{animal}]> but was:<$[quick brown fox]>	36
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	org.junit.ComparisonFailure: expected:<The $[{animal]} jumps.> but was:<The $[${${thing}]} jumps.>	36
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The[ white mouse jumps over the lazy dog].> but was:<The[${animal${species${color}}} jumps over the${target}].>	33
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox]} jumps over the laz...> but was:<The $[${${animal}]} jumps over the laz...>	36
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The[ mouse jumps over the lazy dog].> but was:<The[${animal${species}} jumps over the${target}].>	33
+Mutants:	33	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	38	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	38	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal}] jumps over the lazy...> but was:<The $[quick brown fox] jumps over the lazy...>	36
+Mutants:	38	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[{animal}]> but was:<$[quick brown fox]>	36
+Mutants:	38	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	org.junit.ComparisonFailure: expected:<The $[{animal]} jumps.> but was:<The $[${${thing}]} jumps.>	36
+Mutants:	38	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	38	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox]} jumps over the laz...> but was:<The $[${${animal}]} jumps over the laz...>	36
+Mutants:	38	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	39	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse] jumps over the lazy...> but was:<The [${animal.${species.white}}] jumps over the lazy...>	33
+Mutants:	39	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	java.lang.ArrayIndexOutOfBoundsException: 2147483647	37
+Mutants:	39	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBufferWithNonNull	java.lang.ArrayIndexOutOfBoundsException: 2147483638	37
+Mutants:	39	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse] jumps over the lazy...> but was:<The [${animal.${species}}] jumps over the lazy...>	33
+Mutants:	39	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull	java.lang.ArrayIndexOutOfBoundsException	0
+Mutants:	39	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull_deprecated	java.lang.ArrayIndexOutOfBoundsException	0
+Mutants:	40	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	40	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal}] jumps over the lazy...> but was:<The $[quick brown fox] jumps over the lazy...>	36
+Mutants:	40	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[{animal}]> but was:<$[quick brown fox]>	36
+Mutants:	40	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	org.junit.ComparisonFailure: expected:<The $[{animal]} jumps.> but was:<The $[${${thing}]} jumps.>	36
+Mutants:	40	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	40	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox]} jumps over the laz...> but was:<The $[${${animal}]} jumps over the laz...>	36
+Mutants:	40	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	java.lang.ArrayIndexOutOfBoundsException: -1	35
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testSubstituteDefaultProperties	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	java.lang.ArrayIndexOutOfBoundsException: -1	36
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testReplaceSolo	java.lang.ArrayIndexOutOfBoundsException: -1	37
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	java.lang.ArrayIndexOutOfBoundsException: -1	36
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBufferWithNonNull	java.lang.ArrayIndexOutOfBoundsException: -1	36
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	java.lang.ArrayIndexOutOfBoundsException: -1	35
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testReplacePartialString_noReplace	java.lang.ArrayIndexOutOfBoundsException: -1	35
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull	java.lang.ArrayIndexOutOfBoundsException: -1	36
+Mutants:	42	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull_deprecated	java.lang.ArrayIndexOutOfBoundsException: -1	36
+Mutants:	42	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testMapAndSystemProperty	java.lang.ArrayIndexOutOfBoundsException: -1	33
+Mutants:	42	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest.testSystemProperty	java.lang.ArrayIndexOutOfBoundsException: -1	33
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal} jumps over the lazy dog].> but was:<The $[${animal} jumps over the ${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testDisableSubstitutionInValues	org.junit.ComparisonFailure: expected:<The ${[critter} jumps over the ${p]et}.> but was:<The ${[animal} jumps over the ${targ]et}.>	35
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[]{animal}> but was:<$[$]{animal}>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixSuffix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testCyclicReplacement	java.lang.AssertionError: Cyclic replacement was not detected!	33
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceSimple	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testStaticReplacePrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [<name>]!>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceRecursive	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the lazy dog].> but was:<The [${animal} jumps over the ${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testSamePrefixAndSuffix	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [@name@]!>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testStaticReplace	org.junit.ComparisonFailure: expected:<Hi [commons]!> but was:<Hi [${name}]!>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceUnknownKey	org.junit.ComparisonFailure: expected:<...son} jumps over the [lazy dog].> but was:<...son} jumps over the [${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceNoPrefixNoSuffix	org.junit.ComparisonFailure: expected:<...imal jumps over the [lazy dog].> but was:<...imal jumps over the [${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testStaticReplaceSystemProperties	org.junit.ComparisonFailure: expected:<Hi [mwenaa, you are working with Linux, your home directory is /homes/mwenaa].> but was:<Hi [${user.name}, you are working with ${os.name}, your home directory is ${user.home}].>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableRecursive	org.junit.ComparisonFailure: Wrong result (1) expected:<The [white mouse jumps over the lazy dog].> but was:<The [${animal.${species.${color}}} jumps over the ${target}].>	33
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtEnd	org.junit.ComparisonFailure: expected:<Amount is [GBP12.50]> but was:<Amount is [${code}${amount}]>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceChangedMap	org.junit.ComparisonFailure: expected:<The [quick brown fox jumps over the moon].> but was:<The [${animal} jumps over the ${target}].>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceWeirdPattens	java.lang.AssertionError	37
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBufferWithNonNull	java.lang.AssertionError	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceEmptyKeys	org.junit.ComparisonFailure: expected:<... ${} jumps over the [lazy dog].> but was:<... ${} jumps over the [${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testDefaultValueDelimiters	org.junit.ComparisonFailure: expected:<The [fox jumps over the lazy dog. 1234567890].> but was:<The [${animal} jumps over the lazy ${target}. ${undefined.number:-1234567890}].>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceNoVariables	java.lang.AssertionError	37
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox} jumps over the lazy dog].> but was:<The $[${${animal}} jumps over the ${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariable	org.junit.ComparisonFailure: Wrong result (1) expected:<The [mouse jumps over the lazy dog].> but was:<The [${animal.${species}} jumps over the ${target}].>	33
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplacePrefixNoSuffix	org.junit.ComparisonFailure: expected:<... over the ${target} [lazy dog].> but was:<... over the ${target} [${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testResolveVariable	org.junit.ComparisonFailure: expected:<[]name> but was:<[Hi ${]name>	38
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceInVariableDisabled	org.junit.ComparisonFailure: Wrong result (1) expected:<...es}} jumps over the [lazy dog].> but was:<...es}} jumps over the [${target}].>	33
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceIncompletePrefix	org.junit.ComparisonFailure: expected:<...mal} jumps over the [lazy dog].> but was:<...mal} jumps over the [${target}].>	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceAdjacentAtStart	org.junit.ComparisonFailure: expected:<GBP[12.50] charged> but was:<GBP[${amount}] charged>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull	java.lang.AssertionError	36
+Mutants:	50	org.apache.commons.text.StrSubstitutorTest.testReplaceInTakingStringBuilderWithNonNull_deprecated	java.lang.AssertionError	36
+Mutants:	51	org.apache.commons.text.StrSubstitutorTest.testSubstitutePreserveEscape	org.junit.ComparisonFailure: expected:<value $[]{escaped}> but was:<value $[$]{escaped}>	34
+Mutants:	51	org.apache.commons.text.StrSubstitutorTest.testReplaceEscaping	org.junit.ComparisonFailure: expected:<The $[{animal}] jumps over the lazy...> but was:<The $[quick brown fox] jumps over the lazy...>	36
+Mutants:	51	org.apache.commons.text.StrSubstitutorTest.testReplaceSoloEscaping	org.junit.ComparisonFailure: expected:<$[{animal}]> but was:<$[quick brown fox]>	36
+Mutants:	51	org.apache.commons.text.StrSubstitutorTest.testReplaceToIdentical	org.junit.ComparisonFailure: expected:<The $[{animal]} jumps.> but was:<The $[${${thing}]} jumps.>	36
+Mutants:	51	org.apache.commons.text.StrSubstitutorTest.testConstructorMapPrefixSuffix	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [$< <name>]>	34
+Mutants:	51	org.apache.commons.text.StrSubstitutorTest.testReplaceComplexEscaping	org.junit.ComparisonFailure: expected:<The $[{quick brown fox]} jumps over the laz...> but was:<The $[${${animal}]} jumps over the laz...>	36
+Mutants:	51	org.apache.commons.text.StrSubstitutorTest.testConstructorMapFull	org.junit.ComparisonFailure: expected:<Hi [< commons]> but was:<Hi [!< <name>]>	34

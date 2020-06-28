@@ -1,0 +1,3 @@
+org.apache.commons.text.translate.AggregateTranslatorTest	testNullConstructor	[]	1135	1402	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/translate/AggregateTranslatorTest.java
+org.apache.commons.text.translate.AggregateTranslatorTest	testNonNull	[]	1685	2831	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/translate/AggregateTranslatorTest.java
+org.apache.commons.text.translate.AggregateTranslatorTest	testNullVarargConstructor	[]	1408	1679	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/translate/AggregateTranslatorTest.java

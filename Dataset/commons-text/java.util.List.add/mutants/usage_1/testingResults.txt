@@ -1,0 +1,3 @@
+Mutants:	2	org.apache.commons.text.diff.StringsComparatorTest.testExecution	org.junit.ComparisonFailure: expected:<"[nood]le"> but was:<"[o]le">	35
+Mutants:	2	org.apache.commons.text.diff.ReplacementsFinderTest.testReplacementsHandler[0]	java.lang.AssertionError: To characters do not match: array lengths differed, expected.length=1 actual.length=0	44
+Mutants:	2	org.apache.commons.text.diff.ReplacementsFinderTest.testReplacementsHandler[1]	java.lang.AssertionError: To characters do not match: array lengths differed, expected.length=4 actual.length=0	44

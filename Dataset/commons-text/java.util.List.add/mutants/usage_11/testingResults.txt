@@ -1,0 +1,44 @@
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testCSVSimple	java.lang.AssertionError: expected:<A> but was:<null>	36
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicDelim1	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicDelim2	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicEmpty1	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicEmpty2	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testConstructor_charArray_char	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testStringTokenizerQuoteMatcher	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testDelimString	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testTSV	java.lang.AssertionError: expected:<A> but was:<null>	35
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testDelimMatcher	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testIteration	java.lang.AssertionError	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testConstructor_String_char_char	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testReset	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testReset_charArray	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testToString	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testTokenizeSubclassOutputChange	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testListArray	java.lang.AssertionError: expected:<3> but was:<0>	34
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicQuoted1	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicQuoted2	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicQuoted3	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicQuoted4	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicQuoted5	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicQuoted6	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicQuoted7	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testReset_String	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testConstructor_String	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test1	java.lang.AssertionError: [] expected:<8> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test2	java.lang.AssertionError: [] expected:<8> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test3	java.lang.AssertionError: [] expected:<8> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test4	java.lang.AssertionError: [] expected:<5> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test5	java.lang.AssertionError: [] expected:<8> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test6	java.lang.AssertionError: [] expected:<8> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test7	java.lang.AssertionError: [] expected:<8> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.test8	java.lang.AssertionError: [] expected:<5> but was:<0>	33
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testConstructor_String_char	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testTokenizeSubclassInputChange	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testStringTokenizerStrMatcher	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testConstructor_charArray	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testConstructor_charArray_char_char	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testCSVSimpleNeedsTrim	java.lang.AssertionError: expected:<A> but was:<null>	36
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicIgnoreTrimmed1	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicIgnoreTrimmed2	java.util.NoSuchElementException	31
+Mutants:	2	org.apache.commons.text.StrTokenizerTest.testBasicIgnoreTrimmed3	java.util.NoSuchElementException	26
+Mutants:	2	org.apache.commons.text.StrBuilderTest.testAsTokenizer	java.lang.AssertionError: expected:<2> but was:<0>	34

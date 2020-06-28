@@ -1,0 +1,16 @@
+TEST:	org.apache.commons.text.StrTokenizerTest
+JUnit version 4.12
+..............................................................
+Time: 0.02
+
+OK (62 tests)
+
+
+TEST:	org.apache.commons.text.StrBuilderTest
+JUnit version 4.12
+...................................................................................................
+Time: 0.017
+
+OK (99 tests)
+
+

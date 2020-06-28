@@ -1,0 +1,4 @@
+org.apache.commons.text.diff.ReplacementsFinderTest	testReplacementsHandler	[]	2486	3107	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/diff/ReplacementsFinderTest.java
+org.apache.commons.text.diff.StringsComparatorTest	testLength	[]	1236	1528	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/diff/StringsComparatorTest.java
+org.apache.commons.text.diff.StringsComparatorTest	testLongestCommonSubsequence	[]	1534	1837	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/diff/StringsComparatorTest.java
+org.apache.commons.text.diff.StringsComparatorTest	testExecution	[]	1843	2175	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/diff/StringsComparatorTest.java

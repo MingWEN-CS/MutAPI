@@ -1,0 +1,6 @@
+Mutants:	2	org.apache.commons.text.RandomStringGeneratorTest.testSelectFromCharArray	org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>	33
+Mutants:	2	org.apache.commons.text.RandomStringGeneratorTest.testSelectFromCharVarargs	org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>	33
+Mutants:	3	org.apache.commons.text.RandomStringGeneratorTest.testSelectFromCharArray	org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>	33
+Mutants:	3	org.apache.commons.text.RandomStringGeneratorTest.testSelectFromCharVarargs	org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>	33
+Mutants:	4	org.apache.commons.text.RandomStringGeneratorTest.testSelectFromCharArray	org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>	33
+Mutants:	4	org.apache.commons.text.RandomStringGeneratorTest.testSelectFromCharVarargs	org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>	33

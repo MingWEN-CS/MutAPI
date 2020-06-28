@@ -1,0 +1,2 @@
+Mutants:	2	org.apache.commons.text.diff.ReplacementsFinderTest.testReplacementsHandler[0]	java.lang.AssertionError: From characters do not match: array lengths differed, expected.length=1 actual.length=0	44
+Mutants:	2	org.apache.commons.text.diff.ReplacementsFinderTest.testReplacementsHandler[1]	java.lang.AssertionError: From characters do not match: array lengths differed, expected.length=5 actual.length=0	44

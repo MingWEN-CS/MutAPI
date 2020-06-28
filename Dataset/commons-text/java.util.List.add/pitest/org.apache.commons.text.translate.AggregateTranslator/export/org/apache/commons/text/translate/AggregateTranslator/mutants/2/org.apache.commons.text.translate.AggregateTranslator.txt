@@ -1,0 +1,151 @@
+// class version 51.0 (51)
+// access flags 0x21
+public class org/apache/commons/text/translate/AggregateTranslator extends org/apache/commons/text/translate/CharSequenceTranslator  {
+
+  // compiled from: AggregateTranslator.java
+
+  // access flags 0x12
+  // signature Ljava/util/List<Lorg/apache/commons/text/translate/CharSequenceTranslator;>;
+  // declaration:  extends java.util.List<org.apache.commons.text.translate.CharSequenceTranslator>
+  private final Ljava/util/List; translators
+
+  // access flags 0x81
+  public varargs <init>([Lorg/apache/commons/text/translate/CharSequenceTranslator;)V
+   L0
+    LINENUMBER 42 L0
+    ALOAD 0
+    INVOKESPECIAL org/apache/commons/text/translate/CharSequenceTranslator.<init> ()V
+   L1
+    LINENUMBER 35 L1
+    ALOAD 0
+    NEW java/util/ArrayList
+    DUP
+    INVOKESPECIAL java/util/ArrayList.<init> ()V
+    PUTFIELD org/apache/commons/text/translate/AggregateTranslator.translators : Ljava/util/List;
+   L2
+    LINENUMBER 43 L2
+    ALOAD 1
+    POP
+    GOTO L3
+   L4
+    LINENUMBER 44 L4
+   FRAME FULL [] [java/lang/Throwable]
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    ATHROW
+   L5
+   FRAME FULL [] [java/lang/Throwable]
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    ATHROW
+   L6
+   FRAME FULL [] [java/lang/Throwable]
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+   L7
+    LINENUMBER 45 L7
+    NOP
+    NOP
+    NOP
+    NOP
+    ATHROW
+   L8
+    LINENUMBER 46 L8
+   FRAME FULL [] [java/lang/Throwable]
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    ATHROW
+   L9
+    LINENUMBER 44 L9
+   FRAME FULL [] [java/lang/Throwable]
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    ATHROW
+   L3
+    LINENUMBER 50 L3
+   FRAME FULL [org/apache/commons/text/translate/AggregateTranslator [Lorg/apache/commons/text/translate/CharSequenceTranslator;] []
+    RETURN
+   L10
+    LOCALVARIABLE translator Lorg/apache/commons/text/translate/CharSequenceTranslator; L7 L9 5
+    LOCALVARIABLE this Lorg/apache/commons/text/translate/AggregateTranslator; L0 L10 0
+    LOCALVARIABLE translators [Lorg/apache/commons/text/translate/CharSequenceTranslator; L0 L10 1
+    MAXSTACK = 3
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public translate(Ljava/lang/CharSequence;ILjava/io/Writer;)I throws java/io/IOException 
+   L0
+    LINENUMBER 59 L0
+    ALOAD 0
+    GETFIELD org/apache/commons/text/translate/AggregateTranslator.translators : Ljava/util/List;
+    INVOKEINTERFACE java/util/List.iterator ()Ljava/util/Iterator; (itf)
+    ASTORE 4
+   L1
+   FRAME FULL [org/apache/commons/text/translate/AggregateTranslator java/lang/CharSequence I java/io/Writer java/util/Iterator] []
+    ALOAD 4
+    INVOKEINTERFACE java/util/Iterator.hasNext ()Z (itf)
+    IFEQ L2
+    ALOAD 4
+    INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object; (itf)
+    CHECKCAST org/apache/commons/text/translate/CharSequenceTranslator
+    ASTORE 5
+   L3
+    LINENUMBER 60 L3
+    ALOAD 5
+    ALOAD 1
+    ILOAD 2
+    ALOAD 3
+    INVOKEVIRTUAL org/apache/commons/text/translate/CharSequenceTranslator.translate (Ljava/lang/CharSequence;ILjava/io/Writer;)I
+    ISTORE 6
+   L4
+    LINENUMBER 61 L4
+    ILOAD 6
+    IFEQ L5
+   L6
+    LINENUMBER 62 L6
+    ILOAD 6
+    IRETURN
+   L5
+    LINENUMBER 64 L5
+   FRAME FULL [org/apache/commons/text/translate/AggregateTranslator java/lang/CharSequence I java/io/Writer java/util/Iterator org/apache/commons/text/translate/CharSequenceTranslator I] []
+    GOTO L1
+   L2
+    LINENUMBER 65 L2
+   FRAME FULL [org/apache/commons/text/translate/AggregateTranslator java/lang/CharSequence I java/io/Writer java/util/Iterator] []
+    ICONST_0
+    IRETURN
+   L7
+    LOCALVARIABLE consumed I L4 L5 6
+    LOCALVARIABLE translator Lorg/apache/commons/text/translate/CharSequenceTranslator; L3 L5 5
+    LOCALVARIABLE this Lorg/apache/commons/text/translate/AggregateTranslator; L0 L7 0
+    LOCALVARIABLE input Ljava/lang/CharSequence; L0 L7 1
+    LOCALVARIABLE index I L0 L7 2
+    LOCALVARIABLE out Ljava/io/Writer; L0 L7 3
+    MAXSTACK = 4
+    MAXLOCALS = 7
+}
+

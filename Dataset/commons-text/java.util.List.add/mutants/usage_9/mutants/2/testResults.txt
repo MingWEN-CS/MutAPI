@@ -1,0 +1,4 @@
+TEST:	org.apache.commons.text.StrSubstitutorTest
+Timeout
+TEST:	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest
+Timeout

@@ -1,0 +1,16 @@
+TEST:	org.apache.commons.text.StrSubstitutorTest
+JUnit version 4.12
+.....................................................
+Time: 0.022
+
+OK (53 tests)
+
+
+TEST:	org.apache.commons.text.StrSubstitutorWithInterpolatorStringLookupTest
+JUnit version 4.12
+..
+Time: 0.011
+
+OK (2 tests)
+
+

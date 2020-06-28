@@ -1,0 +1,1 @@
+org.apache.commons.text.diff.ReplacementsFinderTest	testReplacementsHandler	[]	2486	3107	/data/mwenaa/2018_APIMisUse/3plibrary/../Datasets_3PLibrary/Repos/commons-text/src/test/java/org/apache/commons/text/diff/ReplacementsFinderTest.java

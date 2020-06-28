@@ -1,0 +1,8 @@
+TEST:	org.apache.commons.text.translate.AggregateTranslatorTest
+JUnit version 4.12
+...
+Time: 0.12
+
+OK (3 tests)
+
+

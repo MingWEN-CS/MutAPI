@@ -1,0 +1,76 @@
+0	0	0	0
+1	0	1	1
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+2	1	2	2
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+3	2	3	3
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	2	DELETE_USAGE	tokens.add(matcher.group(0))
+4	0	1	1
+===	0	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+5	4	2	2
+===	0	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	1	DELETE_STRUCTURE	while (tokens.add(matcher.group(0))) {     tokens.add(matcher.group(0)); } 
+6	4	2	2
+===	0	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	1	DELETE_USAGE	{     org.apache.commons.lang3.Validate.isTrue(org.apache.commons.lang3.StringUtils.isNotBlank(text), "Invalid text");     final java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("(\\w)+");     final java.util.regex.Matcher matcher = pattern.matcher(text.toString());     final java.util.List<java.lang.String> tokens = new java.util.ArrayList<>();     while (tokens.add(matcher.group(0))) {         tokens.add(matcher.group(0));     }      return tokens.toArray(new java.lang.String[0]); }
+7	1	2	2
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	DELETE_USAGE	tokens.add(matcher.group(0))
+8	0	1	1
+===	0	MUTATE_CONDITION	matcher.find()	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+9	4	2	2
+===	0	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	1	MUTATE_CONDITION	tokens.add(matcher.group(0))	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+10	9	3	3
+===	0	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	1	MUTATE_CONDITION	tokens.add(matcher.group(0))	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+===	2	DELETE_USAGE	while (org.apache.commons.lang3.StringUtils.isNotBlank(text)) {     tokens.add(matcher.group(0)); } 
+11	0	1	1
+===	0	DELETE_USAGE	tokens.add(matcher.group(0))
+12	8	2	2
+===	0	MUTATE_CONDITION	matcher.find()	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+===	1	MUTATE_CONDITION	org.apache.commons.lang3.StringUtils.isNotBlank(text)	tokens.add(matcher.group(0))
+13	0	1	1
+===	0	DELETE_USAGE	{     org.apache.commons.lang3.Validate.isTrue(org.apache.commons.lang3.StringUtils.isNotBlank(text), "Invalid text");     final java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("(\\w)+");     final java.util.regex.Matcher matcher = pattern.matcher(text.toString());     final java.util.List<java.lang.String> tokens = new java.util.ArrayList<>();     while (matcher.find()) {         tokens.add(matcher.group(0));     }      return tokens.toArray(new java.lang.String[0]); }
+14	12	3	3
+===	0	MUTATE_CONDITION	matcher.find()	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+===	1	MUTATE_CONDITION	org.apache.commons.lang3.StringUtils.isNotBlank(text)	tokens.add(matcher.group(0))
+===	2	DELETE_USAGE	{     tokens.add(matcher.group(0)); }
+15	12	3	3
+===	0	MUTATE_CONDITION	matcher.find()	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+===	1	MUTATE_CONDITION	org.apache.commons.lang3.StringUtils.isNotBlank(text)	tokens.add(matcher.group(0))
+===	2	DELETE_STRUCTURE	while (tokens.add(matcher.group(0))) {     tokens.add(matcher.group(0)); } 
+16	3	4	4
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	2	DELETE_USAGE	tokens.add(matcher.group(0))
+===	3	DELETE_STRUCTURE	while (tokens.add(matcher.group(0))) { } 
+17	8	2	2
+===	0	MUTATE_CONDITION	matcher.find()	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+===	1	DELETE_STRUCTURE	while (org.apache.commons.lang3.StringUtils.isNotBlank(text)) {     tokens.add(matcher.group(0)); } 
+18	1	2	2
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	DELETE_USAGE	{     org.apache.commons.lang3.Validate.isTrue(org.apache.commons.lang3.StringUtils.isNotBlank(text), "Invalid text");     final java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("(\\w)+");     final java.util.regex.Matcher matcher = pattern.matcher(text.toString());     final java.util.List<java.lang.String> tokens = new java.util.ArrayList<>();     while (matcher.find()) {         tokens.add(matcher.group(0));     }      return tokens.toArray(new java.lang.String[0]); }
+19	0	1	1
+===	0	DELETE_USAGE	{     tokens.add(matcher.group(0)); }
+20	2	3	3
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	2	DELETE_USAGE	{     tokens.add(matcher.group(0)); }
+21	20	4	4
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	2	DELETE_USAGE	{     tokens.add(matcher.group(0)); }
+===	3	DELETE_USAGE	tokens.add(matcher.group(0))
+22	20	4	4
+===	0	DELETE_CONTROL	while (matcher.find()) {     tokens.add(matcher.group(0)); } 	while (matcher.find()) {     tokens.add(matcher.group(0)); } 
+===	1	MUTATE_CONDITION	matcher.find()	tokens.add(matcher.group(0))
+===	2	DELETE_USAGE	{     tokens.add(matcher.group(0)); }
+===	3	DELETE_USAGE	while (tokens.add(matcher.group(0)));
+23	12	3	3
+===	0	MUTATE_CONDITION	matcher.find()	org.apache.commons.lang3.StringUtils.isNotBlank(text)
+===	1	MUTATE_CONDITION	org.apache.commons.lang3.StringUtils.isNotBlank(text)	tokens.add(matcher.group(0))
+===	2	DELETE_USAGE	tokens.add(matcher.group(0))

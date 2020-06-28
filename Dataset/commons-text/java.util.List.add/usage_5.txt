@@ -1,0 +1,2 @@
+tokens.add(matcher.group(0))	1796	1824	48	48	EXPRESSION_STATEMENT::::tokens.add(matcher.group(0)); ::::1796::::1825::::WHILE_STATEMENT::::while (matcher.find()) {   tokens.add(matcher.group(0)); } ::::1759::::1835
+tokens.toArray(new String[0])	1851	1880	50	50	RETURN_STATEMENT::::return tokens.toArray(new String[0]); ::::1844::::1881:::: :::: ::::0::::0
